@@ -1,0 +1,116 @@
+.troo_da_hero_wrapper {
+  background: url("../../images/hero_bg_img.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 143px;
+  padding-bottom: 158px;
+}
+.troo_da_hero_wrapper > .container {
+  z-index: 1;
+  position: relative;
+}
+.hero_overLay {
+  background: #022539;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.troo_da_hero_left_small_title h4 {
+  color: #fff;
+  font-weight: 400;
+}
+.troo_da_hero_left_small_title {
+  padding-left: 8px;
+}
+.troo_da_small_title_img img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.troo_da_hero_title h1 {
+  color: #fff;
+}
+.troo_da_hero_title span {
+  color: #fb991c;
+}
+.troo_da_hero_content p {
+  color: #fff;
+}
+.troo_da_hero_left_side {
+  max-width: 575px;
+  width: 100%;
+}
+.troo_da_hero_title {
+  padding-top: 19px;
+}
+.troo_da_hero_content {
+  padding-top: 12px;
+}
+.troo_da_hero_btn {
+  padding-top: 40px;
+}
+.troo_da_hero_btn button.btn.btn-primary {
+  padding: 17px 19px 17px 19px;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.troo_da_small_title_img {
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  justify-content: space-between;
+}
+.troo_da_hero_img img {
+  width: 611px;
+  height: 595px;
+  object-fit: contain;
+}
+.troo_da_hero_wrapper::after {
+  content: "";
+  background: url("../../images/hero_bg_yellow.png");
+  width: 657px;
+  height: 386px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  z-index: 0;
+}
+.troo_da_hero_img {
+  position: absolute;
+  top: -58px;
+}
+input[type="date"]::before {
+  content: attr(data-placeholder);
+  width: 100%;
+  color: #777777;
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+  display: none;
+}

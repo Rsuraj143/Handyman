@@ -1,0 +1,197 @@
+.troo_da_handyman_wrapper {
+  padding-top: 104px;
+  padding-bottom: 105px;
+  position: relative;
+}
+.troo_da_hero_small_outer.about h4 {
+  color: #2d2d2d;
+}
+.troo_da_about_handyman_left_side {
+  max-width: 499px;
+  height: 100%;
+}
+.troo_da_about_hero_handyman_title {
+  padding-top: 13px;
+}
+.troo_da_about_hero_handyman_title_cont {
+  padding-top: 15px;
+}
+.troo_da_about_hero_handyman_cont {
+  padding-top: 21px;
+}
+.troo_da_about_hero_handyman_btn {
+  padding-top: 23px;
+}
+.troo_da_handyman_img img {
+  max-width: 611px;
+  width: 100%;
+  height: 100%;
+}
+.troo_da_about_hero_handyman_btn button.btn.btn-primary {
+  background: #022539;
+  box-shadow: 0px 7px 29px rgb(85 85 85 / 32%);
+  color: #fff;
+  padding: 17px 17px 17px 17px;
+}
+.troo_da_about_hero_handyman_btn button.btn.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid #022539;
+  color: #022539;
+}
+.about_polygon-1 {
+  position: absolute;
+  top: 88px;
+  left: 44px;
+}
+.about_polygon-2 {
+  position: absolute;
+  top: 88px;
+  right: 71px;
+}
+.about_polygon-3 {
+  position: absolute;
+  bottom: 186px;
+  left: 35.9%;
+}
+.about_polygon-4 {
+  position: absolute;
+  bottom: 137px;
+  right: 24px;
+}
+.action {
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+}
+@-webkit-keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.troo_da_detail_box_wrapper {
+  padding-bottom: 101px;
+}
+.troo_da_detail_box_wrapper .row {
+  margin: 0 -15px !important;
+}
+.troo_da_detail_box {
+  background: #ffffff;
+  box-shadow: 0px 8px 15px rgb(149 157 165 / 15%);
+  border-radius: 10px;
+  max-width: 387px;
+  width: 100%;
+  height: 264px;
+  text-align: center;
+  padding: 25px 21px 19px 21px;
+  transition: all 0.3s ease;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.about_year_box_outer {
+    position: relative;
+}
+.about_year_box {
+    background: #022539;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0px 7px 15px rgb(85 85 85 / 15%);
+    border-radius: 10px;
+    max-width: 333px;
+    width: 100%;
+    padding: 25px 21px 24px 20px;
+    position: absolute;
+    bottom: 34px;
+    right: 53px;
+    padding-left: 15px;
+}
+.about_yr_detail {
+    margin-left: 13px;
+}
+.about_yr_detail h4 {
+    color: #FFFFFF;
+}
+.about_yr_detail h2 {
+    margin: 0;
+    color: #FB991C;
+}
+.troo_da_detail_box_title {
+  padding-top: 17px;
+}
+.troo_da_detail_box_content {
+  padding-top: 18px;
+}
+.troo_da_detail_box_img.hover path {
+  fill: #022539;
+}
+.troo_da_detail_box:hover .troo_da_detail_box_title h3 {
+  color: #fff;
+}
+.troo_da_detail_box:hover .troo_da_detail_box_content p {
+  color: #fff;
+}
+.troo_da_detail_box:hover {
+  background-color: #022539;
+}
+.troo_da_detail_box:hover .troo_da_detail_box_img svg {
+  fill: #fb991c;
+}
+.troo_da_detail_box_img {
+  position: relative;
+  display: inline;
+  transition: all 0.3s ease;
+}
+.troo_da_detail_box_img::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  background: #022539;
+  opacity: 0.1;
+  position: absolute;
+  top: -24px;
+  left: -32px;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+  z-index: 222;
+}
+.troo_da_detail_box:hover .troo_da_detail_box_img::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  background: #fb991c;
+  opacity: 0.1;
+  position: absolute;
+  top: -24px;
+  left: -32px;
+  border-radius: 100%;
+  z-index: 222;
+}
+.troo_da_hand_we_r_done_box_inner:hover .troo_da_hand_we_r_done_box_img::after {
+  content: "" !important;
+  background: #022539 !important;
+  opacity: 0.4 !important;
+  border-radius: 10px !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.troo_da_hand_we_r_done_box_img {
+  position: relative;
+  border-radius: 10px;
+}
+.troo_da_hand_we_r_done_box_img img {
+  border-radius: 10px;
+}
+
