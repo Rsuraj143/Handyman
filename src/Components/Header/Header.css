@@ -16,18 +16,25 @@
 .top_header_list li {
   cursor: pointer;
 }
-.top_header_list li i a svg:hover {
-  background: #fb991c;
-  border-radius: 3px;
-  color: #ffffff;
-}
+
 .top_header_list li a svg {
   transition: all 0.4s ease;
   margin-left: 10px;
   color: #2D2D2D;
+  width: 27px;
+    height: 27px;
+    padding: 5px;
+}
+.top_header_list li a svg:hover{
+  background: #fb991c;
+  border-radius: 3px;
+  color: #ffffff;
 }
 .troo_da_top_header_right_inner:first-child {
   padding-right: 46px;
+}
+.troo_da_top_header_wrapper .number a{
+  text-decoration: none;
 }
 .call {
   width: 18px;
