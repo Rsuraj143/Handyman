@@ -1,0 +1,135 @@
+.troo_da_form_wrappper {
+  padding-top: 100px;
+  padding-bottom: 88px;
+  position: relative;
+}
+.troo_da_form_wrappper {
+  max-width: 100%;
+  width: 100%;
+  background: #022539;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.troo_da_form_wrappper::after {
+  content: "";
+  background: url("../../images/form_img.png");
+  max-width: 758px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.form_title h2 {
+  color: #fff;
+}
+.form_title h4 {
+  margin: 0;
+  color: #fff;
+  margin-top: 17px;
+}
+.form_content p {
+  color: #fff;
+}
+.form_left {
+  max-width: 517px;
+  width: 100%;
+}
+.form_title {
+  padding-top: 13px;
+}
+.form_content {
+  padding-top: 17px;
+}
+.form_msg_txt h4 {
+  color: #fff;
+}
+.form_number a {
+  color: #fff;
+}
+.form_msg_box_outer {
+  padding-top: 38px;
+}
+.form_msg_img_outer {
+  padding-left: 16px;
+}
+.form_number {
+  padding-left: 14px;
+}
+.troo_da_form_wrappper .people_choose_btn button.btn.btn-primary {
+  padding: 17px 41px 17px 41px;
+}
+.troo_da_form_wrappper .people_choose_btn {
+  padding-top: 36px;
+}
+.form-right_box {
+  z-index: 1;
+  position: relative;
+  max-width: 403px;
+  width: 100%;
+  background: #fb991c;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  padding: 30px;
+}
+.form-control:focus {
+  border-color: 1px solid #022539;
+  box-shadow: none;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form_submit {
+  padding-top: 2px;
+}
+.form-right_box .form-control {
+  border-radius: 10px;
+  padding: 15px 10px 15px 19px;
+  border: 1px solid transparent;
+}
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -4px;
+}
+span.input-group-text {
+  background: #fff;
+  height: 55px;
+  border: 1px solid transparent;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 13px;
+}
+.form_submit button.btn.btn-primary {
+  width: 100%;
+  background: #022539;
+  color: #fff;
+}
+.form_submit button.btn.btn-primary:hover {
+  width: 100%;
+  background: transparent;
+  color: #022539;
+  border: 1px solid #022539;
+}
+.form-right_box select {
+  background-image: url("../../images/drop_down.png");
+  background-position: calc(100% - 22px) 22px, calc(100% - 20px) 14px, 100% 0;
+  background-size: 10px 6px, 10px 6px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+textarea.form-control {
+  min-height: 95px;
+}
+.troo_da_form_wrappper .people_choose_btn button.btn.btn-primary {
+  padding: 17px 54px 17px 54px;
+}

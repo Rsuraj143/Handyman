@@ -61,7 +61,7 @@ export const HeaderData = [
       {
         subTitle: "Error 404",
         heading: "Error_404",
-        path: "/Home/E",
+        path: "/Home/Error_404",
       },
       {
         subTitle: "Comming Soon",

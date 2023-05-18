@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Header.css";
 import Navbar from "react-bootstrap/Navbar";
 import { FaTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../images/Header_Logo.svg";
 import { HeaderData } from "./HeaderData";
 import Navmenu from "./Navmenu";
@@ -10,8 +10,65 @@ import mail from "../../images/Top_header_mail.png";
 import call from "../../images/top_header_call.png";
 
 const Header = () => {
+  const navigate = useNavigate();
+  const navbar_ref = useRef();
+  function handleScroll() {
+    if (window.pageYOffset > 20 || document.documentElement.scrollTop > 20) {
+      if (navbar_ref.current) {
+        navbar_ref.current.style.top = "0px";
+      }
+    } else {
+      if (navbar_ref.current) {
+        navbar_ref.current.style.top = "-150px";
+      }
+    }
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
+      <header className="show_nav" ref={navbar_ref}>
+        <Navbar expand="lg">
+          <div className="container">
+            <Navbar.Brand>
+              <Link to="/">
+                <img src={logo} alt="logo" />
+              </Link>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <ul className="navbar-nav ">
+                {HeaderData.slice(0, 6).map((item, i) => {
+                  return <Navmenu key={i} item={item} />;
+                })}
+              </ul>
+
+              <div class="header_btn">
+                {HeaderData.slice(-1).map((e, i) => {
+                  return (
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      key={i}
+                      onClick={() => navigate(e.path)}
+                    >
+                      {e.title}
+                    </button>
+                  );
+                })}
+              </div>
+            </Navbar.Collapse>
+          </div>
+        </Navbar>
+      </header>
       <section class="troo_da_top_header_wrapper">
         <div class="container">
           <div class="troo_da_top_header_outer d-flex align-items-center justify-content-between">
@@ -71,7 +128,7 @@ const Header = () => {
       <header>
         <Navbar expand="lg">
           <div className="container">
-            <Navbar.Brand >
+            <Navbar.Brand>
               <Link to="/">
                 <img src={logo} alt="logo" />
               </Link>
@@ -87,7 +144,12 @@ const Header = () => {
               <div class="header_btn">
                 {HeaderData.slice(-1).map((e, i) => {
                   return (
-                    <button type="button" class="btn btn-primary" key={i} to={e.path}>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      key={i}
+                      onClick={() => navigate(e.path)}
+                    >
                       {e.title}
                     </button>
                   );

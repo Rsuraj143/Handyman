@@ -71,7 +71,8 @@ const AboutComponent = () => {
             <div class="about_year_box_outer">
               <div class="about_year_box d-flex">
                 <div class="about_yr_icon">
-                  <img src={exp} alt="year_icon" />
+                  {/* <img src={exp} alt="year_icon" /> */}
+                  <p>20+</p>
                 </div>
                 <div class="about_yr_detail">
                   <h4>Year of</h4>

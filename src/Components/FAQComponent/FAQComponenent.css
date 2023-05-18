@@ -59,10 +59,10 @@
   padding-top: 25px;
 }
 .accordion-button:not(.collapsed) {
-  color: #022539;
+  color: #022539 !important;
   padding: 18px 24px 19px 24px;
-  background: #ffffff;
-  box-shadow: none;
+  background: #ffffff !important;
+  box-shadow: none !important;
   border-radius: 0;
   border-top-left-radius: 10px !important;
   border-top-right-radius: 10px !important;
@@ -92,30 +92,31 @@
   border-bottom-left-radius: 10px;
   padding: 19px 20px 18px 24px;
 }
-.accordion-item:first-of-type .accordion-button {
+/* .accordion-item:first-of-type .accordion-button {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-}
+} */
 .accordion-item:last-of-type .accordion-button.collapsed {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: #fc7523;
-  box-shadow: 0px 2px 7px rgb(100 100 111 / 5%);
+  border-color: #fc7523 !important;
+  box-shadow: none !important;
 }
+
 .accordion-button::after {
-  background: url("../../images/plus.png");
-  background-repeat: no-repeat;
+  background: url("../../images/plus.png") !important;
+  background-repeat: no-repeat !important;
   background-position: center;
   background-size: contain;
   width: 13px;
   height: 12px;
 }
 .accordion-button:not(.collapsed)::after {
-  background: url("../../images/minus.png");
-  background-repeat: no-repeat;
+  background: url("../../images/minus.png") !important;
+  background-repeat: no-repeat !important;
   background-position: center;
   background-size: contain;
   width: 13px;

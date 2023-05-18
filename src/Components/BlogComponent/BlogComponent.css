@@ -1,0 +1,21 @@
+.read_ur_latest_blox_wrapper
+  .troo_da_about_we_r_done_btn
+  button.btn.btn-primary {
+  padding: 17px 43px 17px 45px;
+}
+.read_ur_latest_blox_wrapper .troo_da_hand_we_r_done_box_title {
+  padding-bottom: 12px;
+}
+.read_ur_latest_blox_wrapper .troo_da_hand_we_r_done_box_hover_detail {
+  padding: 47px 25px 46px 25px;
+}
+.read_ur_latest_blox_wrapper .readmore::after {
+  right: 44px;
+}
+.read_ur_latest_blox_wrapper .troo_da_hand_we_r_done_box_inner {
+  margin: 0 auto;
+}
+.read_ur_latest_blox_wrapper .troo_da_hand_we_r_done_box {
+  margin: 0;
+  margin-top: 31px;
+}
