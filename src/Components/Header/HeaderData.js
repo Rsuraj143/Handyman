@@ -73,8 +73,20 @@ export const HeaderData = [
   },
   {
     title: "Blogs",
-    heading: "Latest news and blogs",
-    path: "/Home/Blogs",
+    path: "#",
+    subNav: [
+      {
+        subTitle: "Our Blogs",
+        heading: "Latest news and blogs ",
+        path: "/Home/Our_Blogs",
+      },
+      
+      {
+        subTitle: "Blog Details",
+        heading: "When have a problem with cracked pipes",
+        path: "/Home/Our_Blogs/Blog_Details",
+      },
+    ],
   },
   {
     title: "Contact Us",

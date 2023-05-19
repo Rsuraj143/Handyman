@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
-import BannerGlobal from "../../Components/Banner/BannerGlobal";
+import CommingSoonCompo from "../../Components/CommingSoonCompo/CommingSoonCompo";
 
 const CommingSoon = () => {
   return (
     <div>
       <Header />
-      <BannerGlobal />
+      <CommingSoonCompo/>
+
 
       <Footer />
     </div>

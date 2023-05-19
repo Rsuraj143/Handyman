@@ -186,6 +186,11 @@ ul.navbar-nav li.nav-item:hover::after {
   content: "";
   background-color: #fb991c;
 }
+ul.navbar-nav li.nav-item.active::after{
+  content: "";
+  background-color: #fb991c;
+}
+
 ul.dropdown-menu li::before {
   content: "";
   width: 7px;

@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
-import BannerGlobal from '../../Components/Banner/BannerGlobal'
 import Footer from '../../Components/Footer/Footer'
+import Error404Component from '../../Components/Error404Comp/Error404Component'
+import BrandLogo from '../../Components/BrandLogo/BrandLogo'
 
 const Error404 = () => {
   return (
     <div>
         <Header/>
-        <BannerGlobal/>
-
+        <Error404Component/>
+        <BrandLogo/>
         <Footer/>
     </div>
   )

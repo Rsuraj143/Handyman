@@ -1,18 +1,18 @@
 import React from "react";
-import "./ServiceComponent.css";
-import serviceBg from "../../images/what_we_r_done_bg_1.png";
-import serviceBg2 from "../../images/what_we_r_done_bg_2.png";
+import "../ServiceComponent/ServiceComponent.css";
+import bg1 from "../../images/what_we_r_done_bg_1.png";
+import bg2 from "../../images/what_we_r_done_bg_2.png";
 import title from "../../images/title_img.png";
-import { ServiceData } from "./ServiceData";
+import { ProjectData } from "./ProjectData";
 
-const ServiceComponent = () => {
+const ProjectCompoenent = () => {
   return (
     <section class="troo_da_hand_we_r_done_wrapper">
       <div class="what_we_r_done_bg_1">
-        <img src={serviceBg} alt="what_we_r_done_bg_1" />
+        <img src={bg1} alt="what_we_r_done_bg_1" />
       </div>
       <div class="what_we_r_done_bg_2">
-        <img src={serviceBg2} alt="what_we_r_done_bg_2" />
+        <img src={bg2} alt="what_we_r_done_bg_2" />
       </div>
       <div class="container">
         <div class="row">
@@ -33,8 +33,8 @@ const ServiceComponent = () => {
           </div>
         </div>
         <div class="row">
-          {ServiceData.slice(0, 3).map((e, i) => (
-            <div class="col-lg-4" key={i}>
+          {ProjectData.slice(0, 3).map((e, i) => (
+            <div class="col-lg-4">
               <div class="troo_da_hand_we_r_done_box">
                 <div class="troo_da_hand_we_r_done_box_inner">
                   <div class="troo_da_hand_we_r_done_box_img">
@@ -44,7 +44,7 @@ const ServiceComponent = () => {
                     <h3>{e.name} </h3>
                     <p>{e.para}</p>
                     <div class="readmore">
-                      <p>{e.btn}</p>
+                      <p>{e.btn} </p>
                     </div>
                   </div>
                   <div class="troo_da_hand_we_r_done_box_title">
@@ -56,8 +56,8 @@ const ServiceComponent = () => {
           ))}
         </div>
         <div class="row">
-          {ServiceData.slice(3, 6).map((e, i) => (
-            <div class="col-lg-4" key={i}>
+          {ProjectData.slice(3, 6).map((e, i) => (
+            <div class="col-lg-4">
               <div class="troo_da_hand_we_r_done_box">
                 <div class="troo_da_hand_we_r_done_box_inner">
                   <div class="troo_da_hand_we_r_done_box_img">
@@ -67,7 +67,7 @@ const ServiceComponent = () => {
                     <h3>{e.name} </h3>
                     <p>{e.para}</p>
                     <div class="readmore">
-                      <p>{e.btn}</p>
+                      <p>{e.btn} </p>
                     </div>
                   </div>
                   <div class="troo_da_hand_we_r_done_box_title">
@@ -78,14 +78,9 @@ const ServiceComponent = () => {
             </div>
           ))}
         </div>
-        <div class="troo_da_about_we_r_done_btn text-center">
-          <button type="button" class="btn btn-primary">
-            See All Services
-          </button>
-        </div>
       </div>
     </section>
   );
 };
 
-export default ServiceComponent;
+export default ProjectCompoenent;

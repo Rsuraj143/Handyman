@@ -13,9 +13,11 @@ import ProjectDetails from "./Routes/Pages/ProjectDetails";
 import FAQs from "./Routes/Pages/FAQs";
 import Error404 from "./Routes/Pages/Error404";
 import CommingSoon from "./Routes/Pages/CommingSoon";
-import Blogs from "./Routes/Blogs";
+
 import Contact from "./Routes/Contact";
 import Quotes from "./Routes/Quotes";
+import Blogs from "./Routes/Blog/Blogs";
+import BlogDetails from "./Routes/Blog/BlogDetails";
 
 function App() {
   return (
@@ -37,7 +39,9 @@ function App() {
           <Route path="/Home/FAQ" element={<FAQs />} />
           <Route path="/Home/Error_404" element={<Error404 />} />
           <Route path="/Home/Comming_Soon" element={<CommingSoon />} />
-          <Route path="/Home/Blogs" element={<Blogs />} />
+
+          <Route path="//Home/Our_Blogs" element={<Blogs />} />
+          <Route path="/Home/Our_Blogs/Blog_Details" element={<BlogDetails />} />
           <Route path="/Home/Contact_Us" element={<Contact />} />
           <Route path="/Home/Quote_Request" element={<Quotes />} />
 

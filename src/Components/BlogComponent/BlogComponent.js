@@ -1,9 +1,7 @@
 import React from "react";
 import "./BlogComponent.css";
-import title from "../../images/title_img.png"
-import blog1 from "../../images/lastest_blog_1.png"
-import blog2 from "../../images/lastest_blog_2.png"
-import blog3 from "../../images/lastest_blog_3.png"
+import title from "../../images/title_img.png";
+import { BlogData } from "./BlogData";
 
 const BlogComponent = () => {
   return (
@@ -42,81 +40,27 @@ const BlogComponent = () => {
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4">
-            <div class="troo_da_hand_we_r_done_box">
-              <div class="troo_da_hand_we_r_done_box_inner">
-                <div class="troo_da_hand_we_r_done_box_img">
-                  <img
-                    src={blog1}
-                    alt="lastest_blog_1"
-                  />
-                </div>
-                <div class="troo_da_hand_we_r_done_box_hover_detail">
-                  <h3>When have a problem with cracked pipes</h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting & industry. Lorem Ipsum has...
-                  </p>
-                  <div class="readmore">
-                    <p>Continue More</p>
+          {BlogData.slice(0, 3).map((e, i) => (
+            <div class="col-lg-4">
+              <div class="troo_da_hand_we_r_done_box">
+                <div class="troo_da_hand_we_r_done_box_inner">
+                  <div class="troo_da_hand_we_r_done_box_img">
+                    <img src={e.img} alt="lastest_blog_1" />
                   </div>
-                </div>
-                <div class="troo_da_hand_we_r_done_box_title">
-                  <h3>When have a problem with cracked pipes</h3>
+                  <div class="troo_da_hand_we_r_done_box_hover_detail">
+                    <h3>{e.name} </h3>
+                    <p>{e.para}</p>
+                    <div class="readmore">
+                      <p>{e.btn} </p>
+                    </div>
+                  </div>
+                  <div class="troo_da_hand_we_r_done_box_title">
+                    <h3>{e.name} </h3>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="troo_da_hand_we_r_done_box">
-              <div class="troo_da_hand_we_r_done_box_inner">
-                <div class="troo_da_hand_we_r_done_box_img">
-                  <img
-                    src={blog2}
-                    alt="lastest_blog_2"
-                  />
-                </div>
-                <div class="troo_da_hand_we_r_done_box_hover_detail">
-                  <h3>The most common painting mistakes</h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting & industry. Lorem Ipsum has...
-                  </p>
-                  <div class="readmore">
-                    <p>Continue More</p>
-                  </div>
-                </div>
-                <div class="troo_da_hand_we_r_done_box_title">
-                  <h3>The most common painting mistakes</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="troo_da_hand_we_r_done_box">
-              <div class="troo_da_hand_we_r_done_box_inner">
-                <div class="troo_da_hand_we_r_done_box_img">
-                  <img
-                    src={blog3}
-                    alt="lastest_blog_3"
-                  />
-                </div>
-                <div class="troo_da_hand_we_r_done_box_hover_detail">
-                  <h3>Dangers of having high water pressure</h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting & industry. Lorem Ipsum has...
-                  </p>
-                  <div class="readmore">
-                    <p>Continue More</p>
-                  </div>
-                </div>
-                <div class="troo_da_hand_we_r_done_box_title">
-                  <h3>Dangers of having high water pressure</h3>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
