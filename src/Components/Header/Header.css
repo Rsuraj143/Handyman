@@ -131,6 +131,11 @@ ul.dropdown-menu a.dropdown-item:hover {
   background-color: #022539;
   padding-left: 33px;
 }
+ul.dropdown-menu a.dropdown-item.active {
+  color: #fb991c;
+  background-color: #022539;
+  padding-left: 33px;
+}
 .header_btn button.btn.btn-primary {
   font-weight: 500;
   padding: 17px 27px 17px 27px;
@@ -209,6 +214,8 @@ ul.dropdown-menu li:hover::before {
   content: "";
   background-color: #fb991c;
 }
+
+
 a.navbar-brand img {
   width: 214px;
   height: 43px;

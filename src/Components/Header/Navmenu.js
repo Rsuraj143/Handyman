@@ -23,7 +23,7 @@ const Navmenu = ({ item }) => {
         ) : (
           <NavLink
             onMouseEnter={() => setShowCat(true)}
-            // onMouseLeave={() => setShowCat(false)}
+            onMouseLeave={() => setShowCat(false)}
             className="nav-link"
           >
             {item.title}
