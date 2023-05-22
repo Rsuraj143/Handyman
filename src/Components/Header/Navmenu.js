@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Header.css";
 import { NavLink, useLocation } from "react-router-dom";
-import { BsPlus } from "react-icons/bs";
+import { FaChevronDown } from "react-icons/fa";
 
 const Navmenu = ({ item }) => {
     const [showcat, setShowCat] = useState(false);
@@ -27,7 +27,7 @@ const Navmenu = ({ item }) => {
             className="nav-link"
           >
             {item.title}
-            <BsPlus />
+            <FaChevronDown />
             {showcat && (
               <ul className="dropdown-menu show">
                 {item.subNav.map((e, i) => {

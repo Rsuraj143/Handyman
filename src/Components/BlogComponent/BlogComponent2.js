@@ -1,14 +1,16 @@
 import React from "react";
 import "./BlogComponent.css";
 import { BlogData } from "./BlogData";
+import { Link, createSearchParams } from "react-router-dom";
 
 const BlogComponent2 = () => {
   return (
     <section class="read_ur_latest_blox_wrapper">
       <div class="container">
         <div class="row">
-          {BlogData.slice(0, 3).map((e, i) => (
+        {BlogData.slice(0, 3).map((e, i) => (
             <div class="col-lg-4" key={i}>
+              <Link to={`/Home/Our_Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
               <div class="troo_da_hand_we_r_done_box">
                 <div class="troo_da_hand_we_r_done_box_inner">
                   <div class="troo_da_hand_we_r_done_box_img">
@@ -26,6 +28,7 @@ const BlogComponent2 = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
          
@@ -33,6 +36,7 @@ const BlogComponent2 = () => {
         <div class="row">
         {BlogData.slice(3,6).map((e, i) => (
             <div class="col-lg-4" key={i}>
+              <Link to={`/Home/Our_Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
               <div class="troo_da_hand_we_r_done_box">
                 <div class="troo_da_hand_we_r_done_box_inner">
                   <div class="troo_da_hand_we_r_done_box_img">
@@ -50,6 +54,7 @@ const BlogComponent2 = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         

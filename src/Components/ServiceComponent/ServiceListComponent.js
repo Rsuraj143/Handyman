@@ -4,6 +4,7 @@ import title from "../../images/title_img.png";
 import serviceArrow from "../../images/service_box_Arrow.svg";
 import Arrowyellow from "../../images/service_box_yellow_icon.png";
 import { ServiceData } from "./ServiceData";
+import { Link, createSearchParams } from "react-router-dom";
 
 const ServiceListComponent = () => {
   return (
@@ -29,93 +30,120 @@ const ServiceListComponent = () => {
         <div class="row">
           {ServiceData.slice(0, 2).map((e, i) => (
             <div class="col-lg-6" key={i}>
-              <div class="servive_box d-flex align-items-center">
-                <div class="service_box_img_outer">
-                  <img src={e.img} alt="service_img-1" />
-                </div>
-                <div class="service_box_detail">
-                  <div class="service_box_title">
-                    <h4>{e.name} </h4>
+              <Link
+                to={`/Home/Our_Services/Service_Details?${createSearchParams({
+                  id: e.id,
+                })}`}
+              >
+                <div class="servive_box d-flex align-items-center">
+                  <div class="service_box_img_outer">
+                    <img src={e.img} alt="service_img-1" />
                   </div>
-                  <div class="service_box_content">
-                    <p>{e.para}</p>
-                  </div>
-                  <div class="service_box_readmore d-flex">
-                    <span>{e.btn} </span>
-                    <div class="servive_box_img_arrow">
-                      <div class="servive_box_blue_icon">
-                        <img src={serviceArrow} alt="service_box_Arrow" />
-                      </div>
+                  <div class="service_box_detail">
+                    <div class="service_box_title">
+                      <h4>{e.name} </h4>
+                    </div>
+                    <div class="service_box_content">
+                      <p>{e.para}</p>
+                    </div>
+                    <div class="service_box_readmore d-flex">
+                      <span>{e.btn} </span>
+                      <div class="servive_box_img_arrow">
+                        <div class="servive_box_blue_icon">
+                          <img src={serviceArrow} alt="service_box_Arrow" />
+                        </div>
 
-                      <div class="service_box_yellow_icon">
-                        <img src={Arrowyellow} alt="service_box_yellow_icon" />
+                        <div class="service_box_yellow_icon">
+                          <img
+                            src={Arrowyellow}
+                            alt="service_box_yellow_icon"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
         <div class="row">
           {ServiceData.slice(2, 4).map((e, i) => (
             <div class="col-lg-6" key={i}>
-              <div class="servive_box d-flex align-items-center">
-                <div class="service_box_img_outer">
-                  <img src={e.img} alt="service_img-1" />
-                </div>
-                <div class="service_box_detail">
-                  <div class="service_box_title">
-                    <h4>{e.name} </h4>
+              <Link
+                to={`/Home/Our_Services/Service_Details?${createSearchParams({
+                  id: e.id,
+                })}`}
+              >
+                <div class="servive_box d-flex align-items-center">
+                  <div class="service_box_img_outer">
+                    <img src={e.img} alt="service_img-1" />
                   </div>
-                  <div class="service_box_content">
-                    <p>{e.para}</p>
-                  </div>
-                  <div class="service_box_readmore d-flex">
-                    <span>{e.btn} </span>
-                    <div class="servive_box_img_arrow">
-                      <div class="servive_box_blue_icon">
-                        <img src={serviceArrow} alt="service_box_Arrow" />
-                      </div>
+                  <div class="service_box_detail">
+                    <div class="service_box_title">
+                      <h4>{e.name} </h4>
+                    </div>
+                    <div class="service_box_content">
+                      <p>{e.para}</p>
+                    </div>
+                    <div class="service_box_readmore d-flex">
+                      <span>{e.btn} </span>
+                      <div class="servive_box_img_arrow">
+                        <div class="servive_box_blue_icon">
+                          <img src={serviceArrow} alt="service_box_Arrow" />
+                        </div>
 
-                      <div class="service_box_yellow_icon">
-                        <img src={Arrowyellow} alt="service_box_yellow_icon" />
+                        <div class="service_box_yellow_icon">
+                          <img
+                            src={Arrowyellow}
+                            alt="service_box_yellow_icon"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
         <div class="row">
           {ServiceData.slice(4, 6).map((e, i) => (
             <div class="col-lg-6" key={i}>
-              <div class="servive_box d-flex align-items-center">
-                <div class="service_box_img_outer">
-                  <img src={e.img} alt="service_img-1" />
-                </div>
-                <div class="service_box_detail">
-                  <div class="service_box_title">
-                    <h4>{e.name} </h4>
+              <Link
+                to={`/Home/Our_Services/Service_Details?${createSearchParams({
+                  id: e.id,
+                })}`}
+              >
+                <div class="servive_box d-flex align-items-center">
+                  <div class="service_box_img_outer">
+                    <img src={e.img} alt="service_img-1" />
                   </div>
-                  <div class="service_box_content">
-                    <p>{e.para}</p>
-                  </div>
-                  <div class="service_box_readmore d-flex">
-                    <span>{e.btn} </span>
-                    <div class="servive_box_img_arrow">
-                      <div class="servive_box_blue_icon">
-                        <img src={serviceArrow} alt="service_box_Arrow" />
-                      </div>
+                  <div class="service_box_detail">
+                    <div class="service_box_title">
+                      <h4>{e.name} </h4>
+                    </div>
+                    <div class="service_box_content">
+                      <p>{e.para}</p>
+                    </div>
+                    <div class="service_box_readmore d-flex">
+                      <span>{e.btn} </span>
+                      <div class="servive_box_img_arrow">
+                        <div class="servive_box_blue_icon">
+                          <img src={serviceArrow} alt="service_box_Arrow" />
+                        </div>
 
-                      <div class="service_box_yellow_icon">
-                        <img src={Arrowyellow} alt="service_box_yellow_icon" />
+                        <div class="service_box_yellow_icon">
+                          <img
+                            src={Arrowyellow}
+                            alt="service_box_yellow_icon"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./BlogComponent.css";
 import title from "../../images/title_img.png";
 import { BlogData } from "./BlogData";
+import { Link, createSearchParams } from "react-router-dom";
 
 const BlogComponent = () => {
   return (
@@ -40,8 +41,9 @@ const BlogComponent = () => {
           </div>
         </div>
         <div class="row">
-          {BlogData.slice(0, 3).map((e, i) => (
-            <div class="col-lg-4">
+        {BlogData.slice(0, 3).map((e, i) => (
+            <div class="col-lg-4" key={i}>
+              <Link to={`/Home/Our_Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
               <div class="troo_da_hand_we_r_done_box">
                 <div class="troo_da_hand_we_r_done_box_inner">
                   <div class="troo_da_hand_we_r_done_box_img">
@@ -59,6 +61,7 @@ const BlogComponent = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         </div>

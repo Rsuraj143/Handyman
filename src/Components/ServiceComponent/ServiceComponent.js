@@ -4,6 +4,7 @@ import serviceBg from "../../images/what_we_r_done_bg_1.png";
 import serviceBg2 from "../../images/what_we_r_done_bg_2.png";
 import title from "../../images/title_img.png";
 import { ServiceData } from "./ServiceData";
+import { Link, createSearchParams } from "react-router-dom";
 
 const ServiceComponent = () => {
   return (
@@ -35,46 +36,58 @@ const ServiceComponent = () => {
         <div class="row">
           {ServiceData.slice(0, 3).map((e, i) => (
             <div class="col-lg-4" key={i}>
-              <div class="troo_da_hand_we_r_done_box">
-                <div class="troo_da_hand_we_r_done_box_inner">
-                  <div class="troo_da_hand_we_r_done_box_img">
-                    <img src={e.img} alt="service_img-1" />
-                  </div>
-                  <div class="troo_da_hand_we_r_done_box_hover_detail">
-                    <h3>{e.name} </h3>
-                    <p>{e.para}</p>
-                    <div class="readmore">
-                      <p>{e.btn}</p>
+              <Link
+                to={`/Home/Our_Services/Service_Details?${createSearchParams({
+                  id: e.id,
+                })}`}
+              >
+                <div class="troo_da_hand_we_r_done_box">
+                  <div class="troo_da_hand_we_r_done_box_inner">
+                    <div class="troo_da_hand_we_r_done_box_img">
+                      <img src={e.img} alt="service_img-1" />
+                    </div>
+                    <div class="troo_da_hand_we_r_done_box_hover_detail">
+                      <h3>{e.name} </h3>
+                      <p>{e.para}</p>
+                      <div class="readmore">
+                        <p>{e.btn}</p>
+                      </div>
+                    </div>
+                    <div class="troo_da_hand_we_r_done_box_title">
+                      <h3>{e.name} </h3>
                     </div>
                   </div>
-                  <div class="troo_da_hand_we_r_done_box_title">
-                    <h3>{e.name} </h3>
-                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
         <div class="row">
           {ServiceData.slice(3, 6).map((e, i) => (
             <div class="col-lg-4" key={i}>
-              <div class="troo_da_hand_we_r_done_box">
-                <div class="troo_da_hand_we_r_done_box_inner">
-                  <div class="troo_da_hand_we_r_done_box_img">
-                    <img src={e.img} alt="service_img-1" />
-                  </div>
-                  <div class="troo_da_hand_we_r_done_box_hover_detail">
-                    <h3>{e.name} </h3>
-                    <p>{e.para}</p>
-                    <div class="readmore">
-                      <p>{e.btn}</p>
+              <Link
+                to={`/Home/Our_Services/Service_Details?${createSearchParams({
+                  id: e.id,
+                })}`}
+              >
+                <div class="troo_da_hand_we_r_done_box">
+                  <div class="troo_da_hand_we_r_done_box_inner">
+                    <div class="troo_da_hand_we_r_done_box_img">
+                      <img src={e.img} alt="service_img-1" />
+                    </div>
+                    <div class="troo_da_hand_we_r_done_box_hover_detail">
+                      <h3>{e.name} </h3>
+                      <p>{e.para}</p>
+                      <div class="readmore">
+                        <p>{e.btn}</p>
+                      </div>
+                    </div>
+                    <div class="troo_da_hand_we_r_done_box_title">
+                      <h3>{e.name} </h3>
                     </div>
                   </div>
-                  <div class="troo_da_hand_we_r_done_box_title">
-                    <h3>{e.name} </h3>
-                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>

@@ -98,3 +98,48 @@
 .service_box_wrapper .troo_da_hand_we_r_done_title_outer {
   max-width: 445px;
 }
+
+@media (max-width: 1230px) {
+  .service_box_wrapper .row {
+    margin: 0 0 !important;
+  }
+}
+
+@media (max-width: 1090px) {
+  .servive_box {
+    max-width: 453px;
+  }
+}
+@media (max-width: 575px) {
+  .service_box_detail {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+  }
+  .service_box_img_outer {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .service_box_content {
+    padding-top: 5px;
+    margin: 0 auto;
+  }
+  .service_box_readmore {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .service_box_title::after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .servive_box {
+    flex-direction: column;
+    height: 500px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}

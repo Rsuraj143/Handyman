@@ -65,3 +65,71 @@
   width: 100%;
   font-weight: 500;
 }
+
+@media (max-width: 1230px) {
+  .cooming_soon_detail {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .choose_people_vector_2 {
+    display: none;
+  }
+  .choose_people_vector_5 {
+    display: none;
+  }
+  .choose_people_vector_4 {
+    display: none;
+  }
+  .choose_people_vector_3 {
+    display: none;
+  }
+  .choose_people_vector_7 {
+    display: none;
+  }
+  .choose_people_vector_6 {
+    display: none;
+  }
+  .choose_people_vector_6 {
+    display: none;
+  }
+  .coming_soon_wrapper {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  .comin_soon_img {
+    margin: 0 auto;
+  }
+  .cooming_soon_detail {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .coming_soon_title {
+    text-align: center;
+  }
+  .coming_soon_title p {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .cooming_soon_detail .footer_form {
+    margin: 0 auto;
+  }
+  .cooming_soon_detail button.btn.btn-primary {
+    background-color: #fb991c;
+    text-align: center;
+  }
+  .coming_soon_wrapper .footer_form_submit_btn {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+@media (max-width: 630px) {
+  .coming_soon_title h1 {
+    font-size: 25px;
+  }
+  .coming_soon_title {
+    padding-top: 15px;
+  }
+}

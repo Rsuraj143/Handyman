@@ -40,13 +40,13 @@ const ContactCompoent = () => {
                     <div class="conct_box_detail">
                         <h4>Call and email</h4>
                         <div class="contct_box_number">
-                            <a href="tel:+44 123 456 7890">+44 123 456 7890</a> 
-                            <a href="tel:+44 9870 123456">+44 9870 123456</a>
+                            <a href="tel:+44 123 456 7890">+44 123 456 7890</a>, 
+                            <a href="tel:+44 9870 123456"> +44 9870 123456</a>
                         </div>
                       
                         <div class="contct_email_1">
-                            <a href="mailto:troohandyman@email.com">troohandyman@email.com</a>
-                            <a href="mailto:info@troohandyman.com">info@troohandyman.com</a>
+                            <a href="mailto:troohandyman@email.com">troohandyman@email.com</a>, 
+                            <a href="mailto:info@troohandyman.com"> info@troohandyman.com</a>
                         </div>
                         
                     </div>

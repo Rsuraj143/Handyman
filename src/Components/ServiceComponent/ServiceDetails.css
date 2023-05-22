@@ -173,7 +173,7 @@ ul.other_list_ul li:hover::before {
 .need_any_help_box .footer_mail_detail p {
   font-weight: 700;
 }
-/* .need_any_help_conct_btn { padding-top: 25px; }  */
+
 .need_any_help_box .footer_mail_detail {
   padding-bottom: 10px;
 }
@@ -192,4 +192,64 @@ ul.other_list_ul li:hover::before {
 }
 .troo_da_people_choose_list.our_feature .troo_da_people_chooseList_box_2 p + p {
   margin: 0;
+}
+.service_box_wrapper a {
+  color: #022539;
+  text-decoration: none;
+}
+.service_box_wrapper a:hover {
+  color: inherit;
+}
+
+@media (max-width: 1130px) {
+  .other_list {
+    padding: 22px 14px 23px 23px;
+  }
+  .servive_box {
+    max-width: 500px;
+  }
+  .servive_box {
+    max-width: 479px;
+  }
+}
+@media (max-width: 991px) {
+  .latest_tech_box h4 + p {
+    text-align: center;
+  }
+  .latest_tech_box_img {
+    text-align: center;
+  }
+  .other_list {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .need_any_help_box {
+    margin: 0 auto;
+  }
+  .service_detail_wrapper .servive_detail_wrapper_Box_content {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .service_detail_wrapper {
+    padding-top: 50px;
+  }
+  .service_box_wrapper_img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .service_detail_wrapper .troo_da_people_chooseList_box_2 {
+    width: 100% !important;
+  }
+  .service_detail_wrapper .troo_da_people_chooseList_box {
+    width: 100%;
+  }
+  .latest_box_list {
+    max-width: 310px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .service_box_wrapper_right_side.project_left_side {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

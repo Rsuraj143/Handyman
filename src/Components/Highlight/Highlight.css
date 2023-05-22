@@ -211,3 +211,130 @@ ul.troo_da_people_choose_list_ul p {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+
+@media (max-width: 1290px) {
+  .troo_da_people_choose_left {
+    max-width: 518px;
+  }
+  .troo_da_people_choose_right_box {
+    max-width: 240px;
+    height: 185px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .troo_da_people_choose_left {
+    max-width: 492px;
+  }
+  .troo_da_people_choose_right_box {
+    max-width: 220px;
+    height: 185px;
+  }
+}
+@media (max-width: 1090px) {
+  .troo_da_people_choose_left {
+    max-width: 458px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .troo_da_people_choose_list_ul {
+    flex-direction: column;
+  }
+  .troo_da_people_chooseList_box {
+    width: 100%;
+  }
+  .troo_da_people_chooseList_box_2 {
+    width: 100%;
+  }
+  .troo_da_people_choose_content p {
+    max-width: 331px;
+  }
+  .troo_da_people_chooseList_box_2 p {
+    padding-left: 25px;
+    white-space: pre-wrap;
+  }
+}
+
+@media (max-width: 991px) {
+  .troo_da_people_choose_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .choose_people_vector_1 img {
+    display: none;
+  }
+  .troo_da_people_choose_left {
+    max-width: 556px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .troo_da_people_choose_title h2 {
+    text-align: center;
+  }
+  .troo_da_people_choose_content p {
+    max-width: 490px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .troo_da_people_choose_list_ul.d-flex.justify-content-between {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .troo_da_people_chooseList_box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .troo_da_people_choose_right_box {
+    max-width: 283px;
+    height: 203px;
+  }
+  .troo_da_people_chooseList_box_2 {
+    padding-left: 0;
+  }
+  .troo_da_people_choose_list h4 {
+    text-align: center;
+  }
+  .troo_da_people_choose_list {
+    padding-top: 15px;
+  }
+  .people_choose_btn {
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .troo_da_people_choose_right_side {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .troo_da_people_choose_right_box.two {
+    margin-top: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+  .troo_da_people_choose_list.our_feature
+    .troo_da_people_choose_list_ul.d-flex.justify-content-between {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .troo_da_people_choose_list.our_feature h4 {
+    text-align: left;
+  }
+  .troo_da_people_choose_right_box.people_choose_box-3 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .people_choose_btn button.btn.btn-primary {
+    padding: 12px 11px 12px 11px;
+  }
+}

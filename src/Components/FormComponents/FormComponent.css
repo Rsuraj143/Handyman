@@ -133,3 +133,133 @@ textarea.form-control {
 .troo_da_form_wrappper .people_choose_btn button.btn.btn-primary {
   padding: 17px 54px 17px 54px;
 }
+
+@media (max-width: 1690px) {
+  .troo_da_form_wrappper::after {
+    max-width: 660px;
+  }
+}
+@media (max-width: 1590px) {
+  .troo_da_form_wrappper::after {
+    max-width: 620px;
+  }
+}
+@media (max-width: 1400px) {
+  .troo_da_form_wrappper::after {
+    max-width: 515px;
+  }
+}
+@media (max-width: 1390px) {
+  .form_left {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 1130px) {
+  .form-right_box {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1050px) {
+  .form_left {
+    max-width: 427px;
+  }
+}
+
+@media (max-width: 991px) {
+  .troo_da_form_wrappper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .troo_da_form_wrappper::after {
+    max-width: 450px;
+    height: 450px;
+    object-fit: contain;
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  .form_left {
+    margin: 0 auto;
+    margin-top: 455px;
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+  }
+  .form-right_box {
+    margin: 0 auto;
+  }
+  ul.footer_ul.d-flex.justify-content-end {
+    justify-content: center !important;
+  }
+  .footer_Logo {
+    text-align: center;
+    padding-bottom: 26px;
+  }
+  footer {
+    padding-top: 50px;
+  }
+  .footer_box {
+    padding-top: 50px;
+  }
+  .footer_box {
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer_call_outer.d-flex {
+    justify-content: center;
+  }
+  .footer_box.footer_last_box {
+    margin-left: 0;
+  }
+  .footer_form input.form-control {
+    margin: 0 auto;
+  }
+  .footer_form_submit_btn {
+    position: inherit;
+    display: inline;
+    margin-left: -46px;
+    margin-top: -12px;
+  }
+  footer form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .troo_da_top_header_inner {
+    padding-top: 14px;
+    justify-content: center;
+  }
+  .footer_bottom_box {
+    padding-top: 20px;
+    text-align: center !important;
+  }
+  .footer_bottom_box p {
+    margin-bottom: 12px;
+  }
+  .troo_da_hero_wrapper::after {
+    display: none;
+  }
+  form {
+    text-align: center;
+  }
+}
+
+@media (max-width: 630px) {
+  ul.footer_ul.d-flex.justify-content-end {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-right_box {
+    padding: 15px;
+  }
+  h2,
+  .h2 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+}

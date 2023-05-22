@@ -4,6 +4,7 @@ import bg1 from "../../images/what_we_r_done_bg_1.png";
 import bg2 from "../../images/what_we_r_done_bg_2.png";
 import title from "../../images/title_img.png";
 import { ProjectData } from "./ProjectData";
+import { Link, createSearchParams } from "react-router-dom";
 
 const ProjectCompoenent = () => {
   return (
@@ -35,7 +36,8 @@ const ProjectCompoenent = () => {
         <div class="row">
           {ProjectData.slice(0, 3).map((e, i) => (
             <div class="col-lg-4">
-              <div class="troo_da_hand_we_r_done_box">
+             <Link to={`/Home/Projects/Projects_Details?${createSearchParams({id : e.id})}`}>
+             <div class="troo_da_hand_we_r_done_box">
                 <div class="troo_da_hand_we_r_done_box_inner">
                   <div class="troo_da_hand_we_r_done_box_img">
                     <img src={e.img} alt="service_img-1" />
@@ -52,12 +54,14 @@ const ProjectCompoenent = () => {
                   </div>
                 </div>
               </div>
+             </Link>
             </div>
           ))}
         </div>
         <div class="row">
           {ProjectData.slice(3, 6).map((e, i) => (
             <div class="col-lg-4">
+              <Link to={`/Home/Projects/Projects_Details?${createSearchParams({id : e.id})}`}>
               <div class="troo_da_hand_we_r_done_box">
                 <div class="troo_da_hand_we_r_done_box_inner">
                   <div class="troo_da_hand_we_r_done_box_img">
@@ -75,6 +79,7 @@ const ProjectCompoenent = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         </div>

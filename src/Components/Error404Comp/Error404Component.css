@@ -53,3 +53,8 @@
 .error404_img {
   padding-bottom: 66px;
 }
+
+@media (max-width : 991px){
+  .error_404_wrapper { padding-top: 50px; padding-bottom: 25px; } 
+    .error404_img { padding-bottom: 25px; }
+}

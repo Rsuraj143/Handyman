@@ -111,3 +111,63 @@
 .our_team_wrapper .troo_da_about_we_r_done_btn {
   padding-top: 50px;
 }
+
+@media (max-width: 1230px) {
+  .our_team_wrapper .row {
+    margin: 0 0 !important;
+  }
+  .our_team_wrapper .troo_da_hand_we_r_done_box {
+    max-width: 257px;
+  }
+  .our_team_wrapper .troo_da_hand_we_r_done_box_hover_detail {
+    max-width: 204px;
+    top: 12px;
+    left: 0;
+    height: 250px;
+  }
+  .our_team_wrapper .troo_da_hand_we_r_done_box_title {
+    max-width: 216px;
+    left: 15px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .our_team_wrapper .troo_da_hand_we_r_done_box {
+    max-width: 223px;
+  }
+  .our_team_wrapper .troo_da_hand_we_r_done_box_title {
+    max-width: 182px;
+    left: 13px;
+  }
+  .our_team_wrapper .troo_da_hand_we_r_done_box_hover_detail {
+    max-width: 180px;
+    top: 12px;
+    left: -2px;
+    height: 257px;
+  }
+}
+@media (max-width: 991px) {
+  .our_team_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .our_team_wrapper .troo_da_hand_we_r_done_box {
+    max-width: 282px;
+    width: 100%;
+    height: 328px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .our_team_wrapper .troo_da_hand_we_r_done_box_title {
+    max-width: 233px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .our_team_title {
+    padding-bottom: 25px;
+  }
+  .our_team_wrapper .troo_da_about_we_r_done_btn {
+    padding-top: 25px;
+  }
+}

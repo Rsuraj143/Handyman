@@ -51,3 +51,15 @@ ol.breadcrumb li a {
 .about_yr_detail {
   margin-left: 13px;
 }
+.breadcrumb-item a {
+  text-decoration: none;
+}
+.breadcrumb-item.active a {
+  color: #fb991c !important;
+}
+
+@media (max-width: 991px) {
+  .hero_reapeat_wrapper {
+    padding: 50px 0;
+  }
+}

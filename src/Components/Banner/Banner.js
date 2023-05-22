@@ -35,7 +35,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 hero_right">
                     <div class="troo_da_hero_img">
                         <img src={heroImg} alt="hero_img" />
                     </div>

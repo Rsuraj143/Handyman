@@ -169,3 +169,77 @@ ul.pricing_list_ul li:last-child {
 .priciing_title_outer {
   padding-left: 15px;
 }
+
+@media (max-width: 1290px) {
+  .pricing_box {
+    margin: 0 auto;
+    margin-top: 39px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .pricing_box {
+    max-width: 330px;
+  }
+  .troo_da_pricing_wrapper .row {
+    margin: 0 0 !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .pricing_title_content {
+    margin-left: 65px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .pricing_box {
+    max-width: 285px;
+  }
+
+  .pricing_title_content {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1050px) {
+  .pricing_box {
+    max-width: 281px;
+    padding: 31px 0 41px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .troo_da_pricing_wrapper .col-lg-4 {
+    margin-bottom: 25px;
+  }
+  .troo_da_pricing_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pricing_title_content {
+    margin-left: 0;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+  .troo_da_pricing_wrapper .troo_da_about_we_r_done_btn {
+    padding: 0;
+    text-align: center !important;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  .pricing_box {
+    max-width: 387px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 630px) {
+  .priciing_title_outer {
+    padding-left: 0;
+  }
+}
+
+@media(max-width:450px){
+  .troo_da_pricing_wrapper .troo_da_about_we_r_done_btn { margin-bottom: 10px; } 
+}
