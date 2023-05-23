@@ -176,6 +176,15 @@ span.footer_bg_8 {
 .footer_form button.btn.btn-primary:hover {
   background: #fb991c;
 }
+.footer_menu ul{
+  padding-left: 0;
+}
+.footer_menu ul a{
+  text-decoration: none;
+}
+.footer_menu ul li{
+  padding-bottom: 5px;
+}
 
 @media (max-width: 1230px) {
   span.footer_bg_img img {
@@ -240,7 +249,7 @@ span.footer_bg_8 {
     flex-direction: column;
   }
   .form_msg_img_outer.d-flex {
-    justify-content: center;
+    /* justify-content: center; */
     padding-top: 15px;
   }
 }
@@ -250,7 +259,7 @@ span.footer_bg_8 {
     top: 112px;
   }
   .footer_menu {
-    padding-top: 30px;
+    padding-top: 20px;
   }
   ul.footer_ul li {
     margin-right: 0;

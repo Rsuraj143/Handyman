@@ -12,3 +12,17 @@
     column-gap: 35px;
     justify-content: center;
 }
+@media (max-width : 767px){
+  .brand_logo_outer.d-flex{
+    column-gap: 0;
+  }
+}
+@media (max-width : 550px){
+  .brand_logo_outer.d-flex{
+  flex-direction: column;
+  }
+  .brand_logo_outer.d-flex .item{
+    display: flex;
+    justify-content: center;
+  }
+}

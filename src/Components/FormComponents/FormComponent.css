@@ -179,19 +179,23 @@ textarea.form-control {
     right: 0;
     left: 0;
     margin: 0 auto;
+    top: 30px;
   }
   .form_left {
     margin: 0 auto;
     margin-top: 455px;
-    max-width: 650px;
+    max-width: 100%;
     width: 100%;
-    text-align: center;
+padding-left: 0;
   }
   .form-right_box {
     margin: 0 auto;
   }
   ul.footer_ul.d-flex.justify-content-end {
     justify-content: center !important;
+  }
+  .form_msg_img_outer{
+    padding-left: 0;
   }
   .footer_Logo {
     text-align: center;
@@ -206,7 +210,9 @@ textarea.form-control {
   .footer_box {
     padding-top: 30px;
     margin: 0 auto;
-    text-align: center;
+  }
+  .footer_box p{
+    margin-bottom: 0;
   }
   .footer_call_outer.d-flex {
     justify-content: center;

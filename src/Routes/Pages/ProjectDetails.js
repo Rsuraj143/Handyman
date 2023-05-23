@@ -5,8 +5,10 @@ import Footer from '../../Components/Footer/Footer'
 import ProjectDetailsComponent from '../../Components/ProjectComponent/ProjectDetailsComponent'
 import FormComponent from '../../Components/FormComponents/FormComponent'
 import BrandLogo from '../../Components/BrandLogo/BrandLogo'
+import useDocumentTitle from '../../PageTitle'
 
 const ProjectDetails = () => {
+  useDocumentTitle("Handyman | Project Details")
   return (
     <div>
         <Header/>

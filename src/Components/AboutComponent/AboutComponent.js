@@ -7,6 +7,7 @@ import polugon4 from "../../images/about_polygon_4.png"
 import title from "../../images/title_img.png"
 import exp from "../../images/year_icon.png"
 import aboutImg from "../../images/year_of_experience.png"
+import { Link } from "react-router-dom";
 
 const AboutComponent = () => {
   return (
@@ -54,9 +55,11 @@ const AboutComponent = () => {
                 </p>
               </div>
               <div class="troo_da_about_hero_handyman_btn">
+                <Link to="/Home/About_Us">
                 <button type="button" class="btn btn-primary">
                   Learn more about us
                 </button>
+                </Link>
               </div>
             </div>
           </div>

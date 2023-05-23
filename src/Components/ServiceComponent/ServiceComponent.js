@@ -92,9 +92,11 @@ const ServiceComponent = () => {
           ))}
         </div>
         <div class="troo_da_about_we_r_done_btn text-center">
+          <Link to="/Home/Our_Services">
           <button type="button" class="btn btn-primary">
             See All Services
           </button>
+          </Link>
         </div>
       </div>
     </section>

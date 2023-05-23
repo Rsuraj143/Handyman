@@ -211,6 +211,13 @@ ul.troo_da_people_choose_list_ul p {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+.troo_da_people_choose_right_box_detail .counter{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+  color: #2d2d2d;
+  padding-top: 15px;
+}
 
 @media (max-width: 1290px) {
   .troo_da_people_choose_left {
@@ -265,20 +272,17 @@ ul.troo_da_people_choose_list_ul p {
     display: none;
   }
   .troo_da_people_choose_left {
-    max-width: 556px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
   }
-  .troo_da_people_choose_title h2 {
-    text-align: center;
-  }
+
   .troo_da_people_choose_content p {
-    max-width: 490px;
-    margin: 0 auto;
-    text-align: center;
+    max-width: 100%;
+   
   }
   .troo_da_people_choose_list_ul.d-flex.justify-content-between {
-    max-width: 300px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
   }
@@ -290,21 +294,18 @@ ul.troo_da_people_choose_list_ul p {
     justify-content: center;
   }
   .troo_da_people_choose_right_box {
-    max-width: 283px;
+    max-width: 100%;
     height: 203px;
   }
   .troo_da_people_chooseList_box_2 {
     padding-left: 0;
   }
-  .troo_da_people_choose_list h4 {
-    text-align: center;
-  }
+
   .troo_da_people_choose_list {
     padding-top: 15px;
   }
   .people_choose_btn {
     padding-top: 15px;
-    text-align: center;
     padding-bottom: 30px;
   }
   .troo_da_people_choose_right_side {

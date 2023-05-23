@@ -41,6 +41,7 @@
 }
 .troo_da_hero_title span {
   color: #fb991c;
+  margin-left: 10px;
 }
 .troo_da_hero_content p {
   color: #fff;
@@ -121,12 +122,27 @@ input[type="date"]:valid::before {
   .troo_da_hero_left_side {
     padding-top: 100px;
     padding-bottom: 50px;
+    max-width: 100%;
   }
 }
 @media (max-width: 991px) {
   .troo_da_hero_wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .troo_da_hero_img::before {
+    display: none;
+  }
+  .troo_da_hero_left_side {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    max-width: 100%;
+  }
+  .troo_da_hero_img {
+    top: 0;
+  }
+  .troo_da_hero_img img{
+    width: 80%;
   }
 }
 @media (max-width: 450px) {

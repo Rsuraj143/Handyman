@@ -5,8 +5,10 @@ import Footer from "../Components/Footer/Footer";
 import Appointment from "../Components/ContactComponent/Appointment";
 import FAQComponenent from "../Components/FAQComponent/FAQComponenent";
 import BrandLogo from "../Components/BrandLogo/BrandLogo";
+import useDocumentTitle from "../PageTitle";
 
 const Quotes = () => {
+  useDocumentTitle("Handyman | Quotes")
   return (
     <div>
       <Header />

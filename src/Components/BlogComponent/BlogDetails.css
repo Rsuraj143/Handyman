@@ -235,11 +235,11 @@ ul.blog_detail_benifits_ul {
     font-size: 18px;
   }
   .troo_da_hand_we_r_done_box_inner {
-    max-width: 340px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 30px;
   }
   .troo_da_hand_we_r_done_box_title {
-    max-width: 250px;
+    max-width: 75%;
   }
   .troo_da_hand_we_r_done_box_hover_detail {
     max-width: 257px;
@@ -350,7 +350,7 @@ ul.blog_detail_benifits_ul {
 
 @media (max-width: 630px) {
   .troo_da_hand_we_r_done_box_title h3 {
-    font-size: 16px;
+    font-size: 18px !important;
   }
   .troo_da_hand_we_r_done_box_title {
     padding: 10px 10px;

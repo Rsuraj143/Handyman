@@ -2,6 +2,7 @@ import React from 'react'
 import title from "../../images/title_img.png"
 import heroImg from "../../images/hero_img.png"
 import "./Banner.css"
+import { Link } from 'react-router-dom'
 
 const Banner = () => {
   return (
@@ -31,7 +32,7 @@ const Banner = () => {
                                 survived not only five centuries,</p>
                         </div>
                         <div class="troo_da_hero_btn">
-                            <button type="button" class="btn btn-primary">See Our Services</button>
+                            <Link to="/Home/Services_Lists"><button type="button" class="btn btn-primary">See Our Services</button></Link>
                         </div>
                     </div>
                 </div>

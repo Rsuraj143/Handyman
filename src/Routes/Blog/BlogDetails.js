@@ -5,8 +5,10 @@ import BannerGlobal from '../../Components/Banner/BannerGlobal'
 import BlogDetailsComponent from '../../Components/BlogComponent/BlogDetailsComponent'
 import BlogComponent3 from '../../Components/BlogComponent/BlogComponent3'
 import BrandLogo from '../../Components/BrandLogo/BrandLogo'
+import useDocumentTitle from '../../PageTitle'
 
 const BlogDetails = () => {
+  useDocumentTitle("Handyman | Blog Details")
   return (
     <div>
         <Header/>

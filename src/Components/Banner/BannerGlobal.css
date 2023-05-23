@@ -62,4 +62,9 @@ ol.breadcrumb li a {
   .hero_reapeat_wrapper {
     padding: 50px 0;
   }
+  .about_year_box{
+    max-width: 100%;
+    bottom: inherit;
+    right: inherit
+  }
 }

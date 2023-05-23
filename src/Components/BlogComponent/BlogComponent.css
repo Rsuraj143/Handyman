@@ -63,7 +63,7 @@
 
 @media (max-width: 1050px) {
   .read_ur_latest_blox_wrapper .troo_da_hand_we_r_done_box_inner {
-    max-width: 265px;
+    max-width: 100%;
   }
 }
 @media (max-width: 991px) {

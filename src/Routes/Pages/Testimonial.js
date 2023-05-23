@@ -5,8 +5,10 @@ import Footer from '../../Components/Footer/Footer'
 import ReviewComponent2 from '../../Components/ReviewComponent/ReviewComponent2'
 import FormComponent from '../../Components/FormComponents/FormComponent'
 import BrandLogo from '../../Components/BrandLogo/BrandLogo'
+import useDocumentTitle from '../../PageTitle'
 
 const Testimonial = () => {
+  useDocumentTitle("Handyman | Testimonial")
   return (
     <div>
         <Header/>

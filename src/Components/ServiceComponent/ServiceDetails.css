@@ -80,11 +80,9 @@ ul.latest_box_list_ul {
   padding-top: 10px;
 }
 .latest_tech_box_img {
-  margin-left: 30px;
   margin-top: 13px;
 }
 .latest_tech_box_img img {
-  max-width: 356px;
   width: 100%;
   height: 100%;
 }
@@ -92,7 +90,6 @@ ul.latest_box_list_ul {
   background: #f4f9fd;
   box-shadow: 0px 8px 24px rgb(149 157 165 / 20%);
   border-radius: 10px;
-  max-width: 282px;
   width: 100%;
   height: 100%;
   padding: 22px 14px 28px 30px;
@@ -130,7 +127,7 @@ ul.other_list_ul li:hover::before {
   background: #022539;
   box-shadow: 0px 8px 24px rgb(149 157 165 / 20%);
   border-radius: 10px;
-  max-width: 282px;
+  /* max-width: 282px; */
   width: 100%;
   height: 100%;
   padding: 22px 10px 30px 30px;
@@ -200,21 +197,22 @@ ul.other_list_ul li:hover::before {
 .service_box_wrapper a:hover {
   color: inherit;
 }
+.latest_box_list ul{
+  padding-left: 0;
+}
 
 @media (max-width: 1130px) {
   .other_list {
     padding: 22px 14px 23px 23px;
   }
-  .servive_box {
-    max-width: 500px;
-  }
-  .servive_box {
-    max-width: 479px;
-  }
+
 }
 @media (max-width: 991px) {
   .latest_tech_box h4 + p {
     text-align: center;
+  }
+  .service_box_wrapper_right_side {
+    margin-left: 0px;
   }
   .latest_tech_box_img {
     text-align: center;
@@ -244,7 +242,6 @@ ul.other_list_ul li:hover::before {
     width: 100%;
   }
   .latest_box_list {
-    max-width: 310px;
     width: 100%;
     margin: 0 auto;
   }

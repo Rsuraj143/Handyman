@@ -13,8 +13,10 @@ import FormComponent from '../Components/FormComponents/FormComponent'
 import ReviewComponent from '../Components/ReviewComponent/ReviewComponent'
 import BlogComponent from '../Components/BlogComponent/BlogComponent'
 import BrandLogo from '../Components/BrandLogo/BrandLogo'
+import useDocumentTitle from '../PageTitle'
 
 const Home = () => {
+  useDocumentTitle("Handyman | Home")
   return (
     <div>
         <Header/>

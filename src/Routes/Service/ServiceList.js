@@ -8,8 +8,10 @@ import TeamComponent from "../../Components/TeamComponent/TeamComponent";
 import FormComponent from "../../Components/FormComponents/FormComponent";
 import ReviewComponent from "../../Components/ReviewComponent/ReviewComponent";
 import BrandLogo from "../../Components/BrandLogo/BrandLogo";
+import useDocumentTitle from "../../PageTitle";
 
 const ServiceList = () => {
+  useDocumentTitle("Handyman | ServiceList")
   return (
     <div>
       <Header />

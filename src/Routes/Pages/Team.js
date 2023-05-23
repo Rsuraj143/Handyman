@@ -6,8 +6,10 @@ import TeamComponent2 from "../../Components/TeamComponent/TeamComponent2";
 import FormComponent from "../../Components/FormComponents/FormComponent";
 import ReviewComponent from "../../Components/ReviewComponent/ReviewComponent";
 import BrandLogo from "../../Components/BrandLogo/BrandLogo";
+import useDocumentTitle from "../../PageTitle";
 
 const Team = () => {
+  useDocumentTitle("Handyman | Teams")
   return (
     <div>
       <Header />

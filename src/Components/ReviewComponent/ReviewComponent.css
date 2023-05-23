@@ -50,7 +50,7 @@
   font-size: 12px;
   line-height: 1.445;
 }
-.clinet_review_star .fa {
+.client_review_box:hover .clinet_review_star svg {
   color: #fb991c;
 }
 .review_quote {
@@ -176,6 +176,15 @@ section.read_ur_latest_blox_wrapper {
     max-width: 421px;
     left: 0;
   }
+  .troo_da_client_reviews_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  section.read_ur_latest_blox_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -214,14 +223,7 @@ section.read_ur_latest_blox_wrapper {
     padding: 0 !important;
     margin: 0 !important;
   }
-  .troo_da_client_reviews_wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  section.read_ur_latest_blox_wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+
   .read_ur_latest_blox_wrapper .troo_da_about_we_r_done_btn.text-end {
     text-align: center !important;
     margin-top: 21px;
@@ -249,4 +251,10 @@ section.read_ur_latest_blox_wrapper {
     width: 100%;
     padding: 0 10px;
   }
+  .client_review_img_outer {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
 }

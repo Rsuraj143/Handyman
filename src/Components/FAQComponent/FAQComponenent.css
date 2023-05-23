@@ -33,15 +33,15 @@
 .our_faq_wrapper .row {
   margin: 0 -15px !important;
 }
-.our_faq_right {
+/* .our_faq_right {
   margin: 0 15px;
-}
-.our_faq_left {
+} */
+/* .our_faq_left {
   margin: 0 15px;
-}
-.our_faq_right {
+} */
+/* .our_faq_right {
   margin: 0 15px;
-}
+} */
 .faq_wrapper {
   padding-top: 100px;
   padding-bottom: 85px;
@@ -153,8 +153,12 @@ button.accordion-button h5::after {
 }
 
 @media (max-width: 1090px) {
-  utton.accordion-button.collapsed h5 {
+  button.accordion-button.collapsed h5 {
     font-size: 16px;
+  }
+  .our_faq_wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 991px) {

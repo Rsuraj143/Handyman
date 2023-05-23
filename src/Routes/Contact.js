@@ -5,8 +5,10 @@ import Footer from "../Components/Footer/Footer";
 import ContactCompoent from "../Components/ContactComponent/ContactCompoent";
 import FAQComponenent from "../Components/FAQComponent/FAQComponenent";
 import BrandLogo from "../Components/BrandLogo/BrandLogo";
+import useDocumentTitle from "../PageTitle";
 
 const Contact = () => {
+  useDocumentTitle("Handyman | Contacts")
   return (
     <div>
       <Header />

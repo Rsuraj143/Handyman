@@ -39,11 +39,11 @@ const PricingcardComponent = () => {
             <div class="row">
                 <div class="col-lg-4">
                     <div class="pricing_box">
-                        <div class="hover_box_add">
+                        {/* <div class="hover_box_add">
                             <div class="hover_box_txt">
                                 <p>Most popular plane</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="pricing_inner">
                             <div class="pricing_title">
                                 <h3>Professional</h3>
@@ -69,7 +69,7 @@ const PricingcardComponent = () => {
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="pricing_box">
+                    <div class="pricing_box hover_box">
                         <div class="hover_box_add">
                             <div class="hover_box_txt">
                                 <p>Most popular plane</p>
@@ -101,11 +101,11 @@ const PricingcardComponent = () => {
                 </div>
                 <div class="col-lg-4">
                     <div class="pricing_box">
-                        <div class="hover_box_add">
+                        {/* <div class="hover_box_add">
                             <div class="hover_box_txt">
                                 <p>Most popular plane</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="pricing_inner">
                             <div class="pricing_title">
                                 <h3>Advance</h3>

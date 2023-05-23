@@ -102,7 +102,7 @@
   right: 65px;
 }
 .troo_da_hand_we_r_done_box {
-  margin: 15px;
+  margin-bottom: 40px;
 }
 .troo_da_hand_we_r_done_wrapper .row {
   margin: 0 -15px !important;
@@ -157,13 +157,12 @@
   }
   .service_box_detail {
     padding-left: 19px;
-    width: calc(100% - 230px);
+
   }
   .service_box_img_outer {
     width: 230px;
   }
   .servive_box {
-    max-width: 527px;
     margin: 12px auto;
   }
 }
@@ -172,18 +171,16 @@
   .service_box_img_outer {
     width: 240px;
   }
-  .service_box_detail {
-    width: calc(100% - 240px);
-  }
 }
-@media (max-width: 1090px) {
-}
+
 @media (max-width: 1050px) {
   .service_box_img_outer {
     width: 220px;
   }
-  .service_box_detail {
-    width: calc(100% - 220px);
+
+  .troo_da_hand_we_r_done_wrapper {
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 }
 
@@ -194,10 +191,7 @@
   .what_we_r_done_bg_2 {
     display: none;
   }
-  .troo_da_hand_we_r_done_wrapper {
-    padding-bottom: 50px;
-    padding-top: 50px;
-  }
+
   .troo_da_hand_we_r_done_title_outer {
     padding-bottom: 15px;
   }
@@ -217,7 +211,6 @@
     padding-top: 30px;
   }
   .servive_box {
-    max-width: 594px;
     width: 100%;
     margin: 0 auto;
     margin-top: 15px;
@@ -230,6 +223,8 @@
     text-align: center;
   }
 }
-@media(max-width:450px){
-  .troo_da_about_we_r_done_btn button.btn.btn-primary{ padding: 12px 11px 12px 11px; } 
+@media (max-width: 450px) {
+  .troo_da_about_we_r_done_btn button.btn.btn-primary {
+    padding: 12px 11px 12px 11px;
+  }
 }
