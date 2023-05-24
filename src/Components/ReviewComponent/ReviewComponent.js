@@ -11,6 +11,7 @@ import review2 from "../../images/review_img_2.png"
 import review3 from "../../images/review_img_3.png"
 import review4 from "../../images/review_img_4.png"
 import quote from '../../images/quote.png'
+import { Link } from 'react-router-dom';
 
 
 const ReviewComponent = () => {
@@ -200,7 +201,9 @@ const ReviewComponent = () => {
                 </div>
             </div>
             <div class="troo_da_about_we_r_done_btn text-center">
+                <Link to="/Home/Testimonial">
                 <button type="button" class="btn btn-primary">See More Review</button>
+                </Link>
             </div>
         </div>
     </section>

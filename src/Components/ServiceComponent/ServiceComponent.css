@@ -35,21 +35,23 @@
   border-radius: 10px;
 }
 .troo_da_hand_we_r_done_box_hover_detail {
-  max-width: 297px;
-  width: 100%;
+  width: 90%;
   background: #022539;
   box-shadow: 0px 7px 15px rgb(85 85 85 / 15%);
   border-radius: 10px;
   position: absolute;
-  top: 25px;
-  left: 0;
-  right: 0;
+  top: 50%;
+  left: 50%;
   margin: 0 auto;
-  height: 301px;
+  height: 90%;
   text-align: center;
   padding: 47px 28px 46px 27px;
   opacity: 0;
   transition: all 0.3s ease-in;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .troo_da_hand_we_r_done_box_inner:hover
   .troo_da_hand_we_r_done_box_hover_detail {
@@ -63,6 +65,10 @@
 .troo_da_hand_we_r_done_box_hover_detail p {
   color: #ffffff;
   margin-top: 17px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }
 .readmore p {
   color: #fb991c;
@@ -150,14 +156,9 @@
   .readmore::after {
     right: 42px;
   }
-  .our_team_wrapper .troo_da_hand_we_r_done_box_hover_detail {
-    max-width: 230px;
-    top: 12px;
-    left: 15px;
-  }
+
   .service_box_detail {
     padding-left: 19px;
-
   }
   .service_box_img_outer {
     width: 230px;
@@ -227,4 +228,13 @@
   .troo_da_about_we_r_done_btn button.btn.btn-primary {
     padding: 12px 11px 12px 11px;
   }
+  .troo_da_hand_we_r_done_box_hover_detail {
+    padding:10px;
+  }
+  .troo_da_hand_we_r_done_box_hover_detail p {
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+  }
 }
+

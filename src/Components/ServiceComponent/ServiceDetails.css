@@ -100,6 +100,7 @@ ul.latest_box_list_ul {
 }
 ul.other_list_ul {
   padding-top: 25px;
+  padding-left: 0
 }
 ul.other_list_ul li {
   padding-bottom: 27px;
@@ -220,6 +221,7 @@ ul.other_list_ul li:hover::before {
   .other_list {
     margin: 0 auto;
     margin-top: 30px;
+    
   }
   .need_any_help_box {
     margin: 0 auto;

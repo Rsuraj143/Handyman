@@ -10,6 +10,7 @@ import highlight6 from "../../images/people_choose_bg_3.png";
 import highlight7 from "../../images/people_choose_bg_6.png";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
+import { Link } from "react-router-dom";
 
 const Highlight = () => {
   const [counter, setCounter] = useState(false);
@@ -69,9 +70,11 @@ const Highlight = () => {
                 </div>
               </div>
               <div class="people_choose_btn">
+                <Link to="/Home/Our_Services">
                 <button type="button" class="btn btn-primary">
                   See All Services
                 </button>
+                </Link>
               </div>
             </div>
           </div>

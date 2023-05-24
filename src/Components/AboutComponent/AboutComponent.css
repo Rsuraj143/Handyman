@@ -269,7 +269,7 @@
     font-size: 18px;
   }
   .troo_da_hand_we_r_done_box_hover_detail h3 {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .troo_da_hand_we_r_done_box_hover_detail::after {
     top: 15px;
@@ -346,10 +346,11 @@
 }
 
 @media (max-width: 450px) {
-  .troo_da_hand_we_r_done_box_hover_detail {
-    padding: 28px 28px 23px 27px;
-  }
+
    button.btn.btn-primary {
     padding: 12px 11px 12px 11px;
+  }
+  .about_yr_icon p{
+    font-size: 25px;
   }
 }

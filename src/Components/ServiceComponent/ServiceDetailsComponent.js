@@ -1,8 +1,9 @@
 import React from "react";
 import "./ServiceDetails.css";
-import title from "../../images/title_img.png"
-import serviceDetails from "../../images/service_detail_img.png"
-import servicebox from "../../images/service_box_detail_img.png"
+import title from "../../images/title_img.png";
+import serviceDetails from "../../images/service_detail_img.png";
+import servicebox from "../../images/service_box_detail_img.png";
+import play from "../../images/play_btn.png";
 
 const ServiceDetailsComponent = () => {
   return (
@@ -41,18 +42,15 @@ const ServiceDetailsComponent = () => {
           <div class="col-lg-12">
             <div class="service_box_wrapper_img_outer">
               <div class="service_box_wrapper_img">
-                <img
-                  src={serviceDetails}
-                  alt="service_detail_img"
-                />
+                <img src={serviceDetails} alt="service_detail_img" />
               </div>
               <div class="play_btn">
                 <a
                   class="popup-youtube"
                   href="https://www.youtube.com/watch?v=bY-mOdgz7zQ"
-                  target="_blank"
+                  target="blank"
                 >
-                  <img src="./assets/images/play_btn.png" alt="play_btn" />
+                  <img src={play} alt="play_btn" />
                 </a>
               </div>
             </div>
@@ -128,10 +126,7 @@ const ServiceDetailsComponent = () => {
                 </div>
                 <div class="col-lg-5">
                   <div class="latest_tech_box_img">
-                    <img
-                      src={servicebox}
-                      alt="service_box_detail_img"
-                    />
+                    <img src={servicebox} alt="service_box_detail_img" />
                   </div>
                 </div>
               </div>

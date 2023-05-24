@@ -164,9 +164,11 @@ const TeamComponent = () => {
           </div>
         </div>
         <div class="troo_da_about_we_r_done_btn text-center">
+          <Link to="/Home/Our_Team">
           <button type="button" class="btn btn-primary">
             View All Team
           </button>
+          </Link>
         </div>
       </div>
     </section>

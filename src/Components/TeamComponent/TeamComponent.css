@@ -27,19 +27,23 @@
   border-radius: 8px 0px;
 }
 .our_team_hoverBox {
-  max-width: 242px;
-  width: 100%;
-  padding: 91px 0 91px 0;
-  text-align: center;
+  width: 90%;
   background: #022539;
   box-shadow: 0px 7px 15px rgb(85 85 85 / 15%);
   border-radius: 10px;
   position: absolute;
-  top: 10px;
-  left: 0;
-  right: 0;
+  top: 50%;
+  left: 50%;
   margin: 0 auto;
-  height: 282px;
+  height: 90%;
+  text-align: center;
+  padding: 47px 28px 46px 27px;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .our_team_box {
@@ -119,12 +123,7 @@
   .our_team_wrapper .troo_da_hand_we_r_done_box {
     max-width: 257px;
   }
-  .our_team_wrapper .troo_da_hand_we_r_done_box_hover_detail {
-    max-width: 204px;
-    top: 12px;
-    left: 0;
-    height: 250px;
-  }
+
   .our_team_wrapper .troo_da_hand_we_r_done_box_title {
     max-width: 216px;
     left: 15px;
@@ -139,12 +138,7 @@
     max-width: 182px;
     left: 13px;
   }
-  .our_team_wrapper .troo_da_hand_we_r_done_box_hover_detail {
-    max-width: 180px;
-    top: 12px;
-    left: -2px;
-    height: 257px;
-  }
+ 
 }
 
 @media (max-width:1024px){

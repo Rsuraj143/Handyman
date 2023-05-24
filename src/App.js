@@ -40,7 +40,7 @@ function App() {
           <Route path="/Home/Error_404" element={<Error404 />} />
           <Route path="/Home/Comming_Soon" element={<CommingSoon />} />
 
-          <Route path="//Home/Our_Blogs" element={<Blogs />} />
+          <Route path="/Home/Our_Blogs" element={<Blogs />} />
           <Route path="/Home/Our_Blogs/Blog_Details" element={<BlogDetails />} />
           <Route path="/Home/Contact_Us" element={<Contact />} />
           <Route path="/Home/Quote_Request" element={<Quotes />} />

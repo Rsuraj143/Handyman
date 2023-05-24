@@ -34,9 +34,11 @@ const BlogComponent = () => {
           </div>
           <div class="col-lg-4">
             <div class="troo_da_about_we_r_done_btn text-end">
+              <Link to="/Home/Our_Blogs">
               <button type="button" class="btn btn-primary">
                 See All Blogs
               </button>
+              </Link>
             </div>
           </div>
         </div>

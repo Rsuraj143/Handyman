@@ -3,6 +3,9 @@
   padding-bottom: 88px;
   position: relative;
 }
+.troo_da_form_wrappper a{
+  text-decoration: none;
+}
 .troo_da_form_wrappper {
   max-width: 100%;
   width: 100%;
@@ -265,7 +268,7 @@ padding-left: 0;
   }
   h2,
   .h2 {
-    font-size: 25px;
-    line-height: 1.2;
+    font-size: 25px !important;
+    line-height: 1.2 !important;
   }
 }

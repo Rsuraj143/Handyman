@@ -1,6 +1,7 @@
 import React from 'react'
 import "./PricingcardComponent.css"
 import title from "../../images/title_img.png"
+import { Link } from 'react-router-dom'
 
 const PricingcardComponent = () => {
   return (
@@ -32,18 +33,15 @@ const PricingcardComponent = () => {
                 </div>
                 <div class="col-lg-4">
                     <div class="troo_da_about_we_r_done_btn text-end">
+                        <Link to="/">
                         <button type="button" class="btn btn-primary">See All Plans</button>
+                        </Link>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="pricing_box">
-                        {/* <div class="hover_box_add">
-                            <div class="hover_box_txt">
-                                <p>Most popular plane</p>
-                            </div>
-                        </div> */}
                         <div class="pricing_inner">
                             <div class="pricing_title">
                                 <h3>Professional</h3>
@@ -101,11 +99,6 @@ const PricingcardComponent = () => {
                 </div>
                 <div class="col-lg-4">
                     <div class="pricing_box">
-                        {/* <div class="hover_box_add">
-                            <div class="hover_box_txt">
-                                <p>Most popular plane</p>
-                            </div>
-                        </div> */}
                         <div class="pricing_inner">
                             <div class="pricing_title">
                                 <h3>Advance</h3>

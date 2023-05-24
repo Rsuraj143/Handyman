@@ -2,6 +2,10 @@
   padding-top: 100px;
   padding-bottom: 95px;
 }
+.project_detail_wrapper a{
+  text-decoration: none;
+ 
+}
 .service_box_wrapper_right_side.project_left_side {
   margin-left: 0;
   margin-right: 36px;

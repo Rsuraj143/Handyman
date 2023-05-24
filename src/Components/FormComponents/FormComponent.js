@@ -2,6 +2,7 @@ import React from "react";
 import "./FormComponent.css";
 import title from "../../images/title_img.png"
 import mail from "../../images/form_mail_box.png"
+import { Link } from "react-router-dom";
 
 const FormComponent = () => {
   return (
@@ -55,9 +56,11 @@ const FormComponent = () => {
                 </div>
               </div>
               <div class="people_choose_btn">
+                <Link to="/Home/Contact_Us">
                 <button type="button" class="btn btn-primary">
                   Contact Us
                 </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -4,6 +4,7 @@ import wrong from "../../images/wrong_icon_bg.png";
 import faqBG from "../../images/faq_bg_2.png";
 import title from "../../images/title_img.png";
 import Accordion from "react-bootstrap/Accordion";
+import { Link } from "react-router-dom";
 
 const FAQComponenent = () => {
   return (
@@ -127,9 +128,11 @@ const FAQComponenent = () => {
           </div>
         </div>
         <div class="troo_da_about_we_r_done_btn text-center">
+          <Link to="/Home/FAQ">
           <button type="button" class="btn btn-primary">
             See All FAQ’s
           </button>
+          </Link>
         </div>
       </div>
     </section>
